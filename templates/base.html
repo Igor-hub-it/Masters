@@ -1,11 +1,35 @@
-{% load  static %}
+<!-- {% load  static %} -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <style>
+
+    </style>
 </head>
 <body>
+    <header>
+        <div class="header-content">
+            <div class="navbar_menu">
+                <a href="">Инди-мастера</a>
+                <a href="">Салоны</a>
+                <a href="">Художники</a>
+            </div>
+            <div class="header_inner">
+                <div class="logo">МАСТЕРА'</div>
+                <button type="submit">Добавить анкету</button>
+            </div>
+        </div>
+    </header>
+    
+    {% block content %}
+    
+    {% endblock %}
 
+    <footer>
+
+    </footer>
 </body>
 </html>

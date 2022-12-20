@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Добавление</title>
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
     <style>
         body {
@@ -42,20 +42,7 @@
 </head>
 
 <body>
-    <div class="content">
-        <div class="masters">
-            {% for master in page_obj %}
-                <div class="master-card">
-                    <div class="name">{{ master.name }}</div>
-                    <div class="descpiption">{{ master.description }}</div>
-                    <div class="price">Стоимость от: {{ master.price }}</div>
-                    <div class="experience">Опыт работы: {{ master.experience }}</div>
-                    <div class="phone">Телефон: {{ master.phone }}</div>
-                    <a class="vk" href="{{ master.vk }}">ВК</a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
+    хуй
 </body>
 </html>
 {% endblock %}
